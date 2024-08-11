@@ -1,5 +1,5 @@
 import './App.css';
-import RandomQuotes from './components/randomQuotes';
+import RandomQuotes from './components/RandomQuotes';
 
 function App() {
 
