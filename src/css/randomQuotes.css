@@ -1,0 +1,55 @@
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    background-color: lightgrey;
+    width: 50%;
+    height: 60%;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#text {
+    padding: 0 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#author {
+    font-weight: 400;
+}
+
+#tweet-quote {
+    text-decoration: none;
+}
+
+#buttons {
+    margin-top: 25px;
+    height: 12%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 100%;
+    width: 100px;
+    color: white;
+    cursor: pointer;
+}
+
+h1 {
+    color: orange;
+}
